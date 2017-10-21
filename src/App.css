@@ -1,0 +1,43 @@
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected {
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+}
+
+.hovered:not(.selected):hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  cursor: pointer;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.gutters {
+  padding: 5px;
+}
+
+.container {
+  width: 600px;
+  padding: 15px;
+}
+
+.completed {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
